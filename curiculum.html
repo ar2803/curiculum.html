@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Gordon</title>
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <style>
+   
+        #img{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <button id="boton" onclick="mostrar();">mostrar imagen</button>
+    <div id="img">
+        <button id="booton" onclick="ocultar();">ocultar imagen</button>
+        "<img src="https://randomuser.me/api/portraits/men/4.jpg">"
+    </div>
+
+    <script>
+        function mostrar(){
+            document.getElementById("img").style.display = "block"
+        }
+
+        function ocultar(){
+            document.getElementById("img").style.display = "none"
+        }
+    </script>
+
+        <hi>Ken Gordon</hi>
+        <p>direccion: 5141 Rolling Green Rd</p>
+        <p>telefono:(462) 350-7151</p>
+        <fieldset>
+            <legend>datos personales</legend>
+            <ul>
+                <li>nombre:ken</li>
+                <li>apellido:gordo</li>
+                <li>genero:masculino</li>
+                <li>fecha de nacimiento: 8/03/1992</li>
+                <li>edad 30 años</li>
+                <li>celular:1520564732</li>
+                <li>DNI:73032433</li>
+                <li>estodo sivil:soltero</li>
+                <li>E-mail: ken.gordon@ejemplo.com</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>educasion academica</legend>
+            <ul> 
+                <li>secundario completo</li>           
+                <p>E.E.S N°36</p>
+                <li>primario completo</li>
+                <P>E.N°79</P>
+                
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>experiensia laboral</legend>
+            <ul>
+                <p>actual</p>
+                <li>herrajes glago S.A</li>
+                <li>como empleado administrativo en el departamento
+                    de recursos humano desde 2023
+                </li>
+                <li>fundasion pro desarrollo industrial(prodis)
+                como enpleado administrativo en el area de sueldo</li>
+            
+            </ul>
+        </fieldset>
+
+</body>
+</html>

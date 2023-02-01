@@ -1,51 +1,24 @@
 
-* {
-    color: black;
+  body{
+    background-color: rgb(219, 219, 231);
 }
-
-p, span {
-    color:red;
-    width: 300px;
+div{
+    background-color: rgb(242, 245, 247);
+    border: 1px solid black;
+    padding: 12px;
+    width: auto;
+    margin: 0 auto;
 }
-
-/**
-esto es un comentario dentro de un documento de css
-*/
-h1 {
-    font-family: 'Roboto', sans-serif;;
-    border: 11px solid black;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    /*padding-top: 20px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 20px;*/
-    padding: 30px 25px 15px 20px;
+fieldset{
+    margin-bottom: 12px; 
+}
+legend{
+    background-color: rgb(31, 212, 62);
+    padding: 5px;
+    border-radius: 20px;
     font-weight: bold;
-    color: blue;
 }
 
-section {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-}
 
-#mi_parrafo{
-    color: yellow;
-    font-size: 23px;
-    border: 1px solid orange;
-}
 
-.estaesmiclase {
-    font-weight: bold;
-    color: lightblue;
-}
-/*
-section h1 {
-    font-weight: 400px;
-}
-*/
+
